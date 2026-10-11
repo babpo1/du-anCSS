@@ -39,3 +39,36 @@ h1 {
 p {
     line-height: 1.6;
 }
+
+
+/* nav: thanh điều hướng */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Chỉ ảnh nằm trong nav */
+nav img {
+    width: 10%;
+}
+
+/* Bố cục Grid hai cột */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 20px;
+}
+
+/* Chỉ ảnh nằm trong grid */
+.grid img {
+    width: 100%;
+}
+
+/* Bố cục Flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
